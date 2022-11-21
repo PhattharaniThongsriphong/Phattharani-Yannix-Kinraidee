@@ -1,0 +1,132 @@
+[
+    {
+        "id": 1,
+        "engname": "Somtam",
+        "thainame": "ส้มตำ"
+    },
+    {
+        "id": 2,
+        "engname": "Tomyam",
+        "thainame": "ต้มยำ"
+    },
+    {
+        "id": 3,
+        "engname": "Green-Curry",
+        "thainame": "แกงเขียวหวาน"
+    },
+    {
+        "id": 4,
+        "engname": "Pizza",
+        "thainame": "พิซซ่า"
+    },
+    {
+        "id": 5,
+        "engname": "Bonchon",
+        "thainame": "บอนชอน"
+    },
+    {
+        "id": 6,
+        "engname": "Pad-Thai",
+        "thainame": "ผัดไทย"
+    },
+    {
+        "id": 7,
+        "engname": "Sukiyaki",
+        "thainame": "สุกี้ยากี้"
+    },
+    {
+        "id": 8,
+        "engname": "Yakiniku",
+        "thainame": "ยากินิกุ - เนื้อย่าง"
+    },
+    {
+        "id": 9,
+        "engname": "Kimbap",
+        "thainame": "คิมบับ"
+    },
+    {
+        "id": 10,
+        "engname": "Sandwich",
+        "thainame": "แซนด์วิช"
+    },
+    {
+        "id": 11,
+        "engname": "Dumplings",
+        "thainame": "ขนมจีบ"
+    },
+    {
+        "id": 12,
+        "engname": "Burger",
+        "thainame": "เบอร์เกอร์"
+    },
+    {
+        "id": 13,
+        "engname": "Sushi",
+        "thainame": "ซูชิ"
+    },
+    {
+        "id": 14,
+        "engname": "Ramen",
+        "thainame": "ราเม็ง"
+    },
+    {
+        "id": 15,
+        "engname": "Sashimi",
+        "thainame": "ซาชิมิ"
+    },
+    {
+        "id": 16,
+        "engname": "Soba",
+        "thainame": "โซบะ"
+    },
+    {
+        "id": 17,
+        "engname": "Udon",
+        "thainame": "อุด้ง"
+    },
+    {
+        "id": 18,
+        "engname": "Noodle",
+        "thainame": "ก๋วยเตี๋ยว"
+    },
+    {
+        "id": 19,
+        "engname": "Salad",
+        "thainame": "สลัด"
+    },
+    {
+        "id": 20,
+        "engname": "Fried-Rice",
+        "thainame": "ข้าวผัด"
+    },
+    {
+        "id": 21,
+        "engname": "Panang curry",
+        "thainame": "แกงพะแนง"
+    },
+    {
+        "id": 22,
+        "engname": "lasagne",
+        "thainame": "ลาซานญ่า"
+    },
+    {
+        "id": 23,
+        "engname": "Spaghetti Bolognese",
+        "thainame": "สปาเก็ตตี้บอลอนเจส"
+    },
+    {
+        "id": 24,
+        "engname": "lasagne",
+        "thainame": "ลาซานญ่า"
+    },
+    {
+        "id": 25,
+        "engname": "Kimchi-soup",
+        "thainame": "ซุปกิมจิ"
+    },
+    {
+        "id": 26,
+        "engname": "Jajangmyeon",
+        "thainame": "จาจังมยอน"
+    }
+]

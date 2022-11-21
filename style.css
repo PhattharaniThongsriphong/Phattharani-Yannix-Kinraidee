@@ -1,0 +1,66 @@
+.container h1{
+    text-align: center;
+    margin-bottom: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 10rem;
+}
+
+.container #randomFood {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+button{
+    width: 20rem;
+    height: 3rem;
+    background-color: rgb(253, 227, 59);
+    border-radius: 2rem;
+    box-shadow: 0 8px 16px 0 rgba(110, 103, 103, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+}
+
+button:hover {background-color: #e4ab1c}
+
+button:active {
+  background-color: #e4ab1c;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#randomFood{
+    font-size: 2rem;
+    font-family: 'Lobster', cursive;
+}
+
+#randomFoodEngName{
+    font-size: 2rem;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    color: darkcyan;
+}
+
+#randomFoodThaiName{
+    font-size: 1.5rem;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    color: cadetblue;
+}
+
+.container button{
+    margin: 0 auto;
+    display: block;
+}
+
+.menu h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.menu #food-menu {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+

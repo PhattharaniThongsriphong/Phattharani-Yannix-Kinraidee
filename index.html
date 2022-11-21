@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Food</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Let's Random Food !</h1>
+        <div id="randomFoodEngName"></div>
+        <div id="randomFoodThaiName"></div>
+        <div id="randomFood"></div>
+        <button id="generate"><span style="font-weight: bold;">Click Here</span> to Random Food</button>
+    </div>
+    <div style="height: 120px;"></div>
+    <div class="menu">
+        <h3>Our menu</h3>
+        <div class="menu-container">
+            <div id="food-menu"></div>
+        </div>
+    </div>
+</body>
+
+<script>
+    fetch('./foodname.json')
+    .then((response) => {
+        return response.json();
+    }).then(data => {
+        console.log(data)
+        for (i = 0; i < data.length; i++) {
+            let foodEngName = data[i].engname;
+            let foodThaiName = data[i].thainame;
+            let foodId = data[i].id;
+
+            document.getElementById("food-menu").innerHTML += foodEngName + " ( " + foodThaiName + " ) " + "<br>";
+
+            setRandomFood = () => {
+                var random = Math.floor(Math.random() * data.length);
+                console.log(random)
+                document.getElementById("randomFoodEngName").innerText = data[random].engname;
+                document.getElementById("randomFoodThaiName").innerText = data[random].thainame;
+            }
+
+            document.getElementById("generate").addEventListener("click", setRandomFood);
+            
+        }     
+    })
+    
+</script>
+
+</html>
